@@ -70,3 +70,13 @@ img {
 	border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
 	border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
 }
+
+/* Estilo para la barra de busqueda */
+.topnav input[type=text] {
+  	float: right;
+  	padding: 6px;
+  	border: none;
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	font-size: 17px;
+}
