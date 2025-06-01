@@ -7,7 +7,4 @@
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/miestilo.css">
 	</head>
-
-
-
 	<body>
