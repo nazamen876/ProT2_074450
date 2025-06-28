@@ -10,9 +10,6 @@
     <a class="nav-link" href='acerca_de'>Acerca de</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href='registro'>Registrarse</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link" href='login'>Iniciar Sesion</a>
   </li>
   <li class="nav-item dropdown">

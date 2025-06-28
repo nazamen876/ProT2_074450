@@ -1,6 +1,6 @@
 <?php
 namespace App\Controllers;
-Use App\Models\usuarios_model;
+use App\Models\usuarios_model;
 use CodeIgniter\Controller;
 
 class usuario_controller extends Controller {
@@ -46,7 +46,7 @@ class usuario_controller extends Controller {
 			]);
 
 			session()->setFlashData('success', 'Usuario registrado con exito');
-			return $this->response->redirect('registro');
+			return $this->response->redirect('login');
 		}
 	}
 }
