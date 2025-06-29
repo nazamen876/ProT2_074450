@@ -10,10 +10,10 @@ class usuario_controller extends Controller {
 	}
 
 	public function create() {
-		$data['titulo'] = 'Registro';
+		$dato['titulo'] = 'Registro';
 		echo view('front/header', $dato);
 		echo view('front/navbar');
-		echo view('front/registro');
+		echo view('back/registro');
 		echo view('front/footer');
 	}
 

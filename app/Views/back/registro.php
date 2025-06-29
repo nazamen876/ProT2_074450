@@ -11,7 +11,7 @@
 				<form method="post" action="<?php echo base_url('/enviar-form') ?>">
 					<?=csrf_field();?>
 					<?php if(!empty (session()->getFlashdata('fail'))):?>
-						<div class="alert alert-danger"><?session()->getFlashdata('fail');?></div>
+						<div class="alert alert-danger"><?=session()->getFlashdata('fail');?></div>
 					<?php endif?>
 					<?php if(!empty (session()->getFlashdata('success'))):?>
 						<div class="alert alert-success"><?=session()->getFlashdata('success');?></div>
